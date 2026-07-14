@@ -83,62 +83,35 @@ through SMOTE oversampling during training.
 
 ---
 
+## GenAI Retention Strategy Pipeline
 
+612 high-risk customers (Churn Probability > 10%) are staged through 
+a structured prompt engineering pipeline to Google Gemini 2.5 Flash. 
+Each prompt includes the customer's full risk profile and behavioral 
+signals. The model returns a personalized retention blueprint 
+recommending specific Canadian banking products:
 
+- Low Balance Velocity → exclusive TFSA/GIC high-interest rate match
+- High Transaction Dropoff → 12-month credit card annual fee waiver
 
+Running on top 3 customers for demonstration.
+Remove `.head(3)` in the final cell to run the full pipeline.
 
+---
 
+## Tableau Dashboard
 
+Six-sheet Client Retention & Risk Mitigation Dashboard:
 
+1. Portfolio KPI #1 — Total customers and average churn probability
+2. Portfolio KPI #2 — Critical risk accounts and active attrition risk
+3. Churn Risk Distribution — customer count across four risk tiers
+4. Balance Velocity vs Churn Probability — scatter validating features
+5. Average Churn Probability by Tenure — attrition by cohort
+6. Retention Priority List — top 20 accounts with Action Priority 
+   tiers: Immediate Outreach / Contact This Week / Monitor Closely
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## Tools & Technologies
 
