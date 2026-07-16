@@ -31,6 +31,16 @@ Tableau Dashboard
 
 ---
 
+### Project Data & Pipeline Outputs
+This repository includes processed datasets and AI-generated retention strategies:
+
+* **[Customer Churn Metrics](Data/data_churn_data.csv):** Cleaned numerical data used for model training and analysis.
+* **[AI Retention Blueprints](Data/data_ai_retention_blueprints.md):** Formatted, actionable retention strategies for high-risk clients.
+* **[High-Risk Attrition Portfolio](Data/high_risk_attrition_portfolio.csv):** Filtered subset of high-risk customers used to drive the AI pipeline.
+* **[Master Dataset](Data/banking_churn_tableau_master.csv):** The complete output dataset containing all model predictions and generated text.
+
+---
+
 ## Original Feature Engineering
 
 Two proprietary risk signals engineered from raw transaction data:
