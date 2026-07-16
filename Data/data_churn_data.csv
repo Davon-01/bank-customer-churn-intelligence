@@ -1,0 +1,4 @@
+Customer_ID,Tenure_Years,Active_Products,Current_Balance,Avg_3Month_Balance,Monthly_Transactions_Current,Monthly_Transactions_Last_Month,Balance_Velocity,Transaction_Dropoff,Churn_Label,Churn_Probability
+10002,6,2,12206.04,6003.17,7,45,2.0329,-0.8444,0,0.1447
+10004,4,1,53.24,10076.46,43,7,0.0053,5.1429,0,0.1544
+10005,12,3,114.2,13230.62,25,15,0.0086,0.6667,0,0.5027
