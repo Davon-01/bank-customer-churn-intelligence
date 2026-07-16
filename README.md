@@ -97,6 +97,11 @@ recommending specific Canadian banking products:
 Running on top 3 customers for demonstration.
 Remove `.head(3)` in the final cell to run the full pipeline.
 
+### AI Retention Strategy Outputs
+The model generates personalized blueprints based on individual churn risk factors.
+* View the formatted, readable retention reports: [AI Retention Blueprint Report](data/ai_retention_blueprints.md)
+* View the underlying customer metrics: [Customer Churn Data](data/churn_data.csv)
+
 ---
 
 ## Tableau Dashboard
